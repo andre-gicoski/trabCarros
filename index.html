@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Corrida de quadrados</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Corrida de Quadrados</h1>
+    <div class="wrapper">
+        <div class="container">
+            <div class="race-track">
+                <div class="carrot-container" id="carrot-1">1</div>
+                <div class="carrot-container" id="carrot-2">2</div>
+                <div class="carrot-container" id="carrot-3">3</div>
+            </div>
+            <div class="input-container">
+                <h2 id="car-instruction">Digite o número do quadrado que deseja apostar:</h2>
+                <input type="text" id="square-number" name="square-number" placeholder="Número do quadrado">
+                <button id="submit-button" onclick="enviar()">Apostar</button>
+            </div>
+            <div id="random-number"></div>
+            <div id="result"></div>
+        </div>
+    </div>
+</body>
+</html>

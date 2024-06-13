@@ -1,0 +1,88 @@
+body {
+    background-color: grey;
+    font-family: comic sans ms;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 20px 0;
+    user-select: none;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.race-track {
+    width: 600px;
+    height: 400px;
+    background-color: #f4f4f4;
+    border: #ccc solid 1px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+}
+
+.carrot-container {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    border: #ccc solid 1px;
+    border-radius: 5px;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 127px;
+    user-select: none;
+}
+
+#carrot-1 {
+    background-color: blue;
+    color: white;
+    top: 10px;
+}
+
+#carrot-2 {
+    background-color: yellow;
+    top: 90px;
+}
+
+#carrot-3 {
+    background-color: red;
+    top: 170px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-container input[type="number"] {
+    margin-bottom: 10px;
+    border: 1px solid black;
+    cursor: text;
+}
+
+#submit-button {
+    cursor: pointer;
+}
